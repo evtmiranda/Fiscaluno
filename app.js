@@ -108,6 +108,6 @@ function sendMessage(sender, text_) {
 };
 
 var token = "EAARp51vUmmwBABruSClLPZADvKRZBmtlRLClvdXkupIjVwSQaOYoiM0t5kpr0ZCLvDWOu6ZCUZC25UQ2GNJnSoT1eeu30sJ1a9y4aqfgUf3RFasea5irNum6L0WJBslXXdIYG8ZCOTjdU3NnE9kqBQQ6ZADUCjdxqOemgtsLctJPwZDZD";
-var host = (process.env.VCAP_APP_HOST || 'localhost');
-var port = (process.env.VCAP_APP_PORT || 3000);
-app.listen(port, host);
+// var host = (process.env.VCAP_APP_HOST || 'localhost');
+// var port = (process.env.VCAP_APP_PORT || 3000);
+// app.listen(port, host);
